@@ -23,6 +23,6 @@ express()
 
   // endpoints
 
-  .get("https://icanhazdadjoke.com/", getDadJoke)
+  // .get("https://icanhazdadjoke.com/", getDadJoke)
 
   .listen(8000, () => console.log(`Listening on port 8000`));
